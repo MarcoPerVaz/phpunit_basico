@@ -1,0 +1,6 @@
+<----------Proyecto PHPUnit---------->
+Commit - Creación del proyecto
+  -Creación de la carpeta Instrucciones
+    -Creación del archivo GuíaCommits.txt
+  -Creación de la carpeta tests
+  -Creación y edición del archivo readme.md
