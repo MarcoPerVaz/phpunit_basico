@@ -4,3 +4,9 @@ Commit - Creación del proyecto
     -Creación del archivo GuíaCommits.txt
   -Creación de la carpeta tests
   -Creación y edición del archivo readme.md
+Commit - Flujo de trabajo sin PHPUnit
+  Nota: En esta clase se muestra como funciona EDD (Desarrollo Guíado por Errores), el término no existe pero es para la
+        idea en general, se hacen ejercicios para comprobar como se veían y se solucionaban errores y mejoras de código.
+  -Creación de la carpeta 1
+    -Creación y edición del archivo index.php
+      -Creación de la clase Slug.php para usarse con el ejercicio 4 en index.php
