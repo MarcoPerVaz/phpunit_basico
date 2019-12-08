@@ -32,3 +32,7 @@ Commit - Mi primera prueba con PHPUnit
     -mv SlugTest.php tests/
   -Desde consola realizar la prueba del test
     -vendor/bin/phpunit tests/SlugTest.php --color
+Commit - Estructura de carpetas(Laravel)
+  -Creación del proyecto de Laravel 5.8 llamado 3
+    -composer create-project --prefer-dist laravel/laravel 3 "5.8.*"
+    Nota: El proyecto se crea dentro de la carpeta tests
