@@ -36,3 +36,18 @@ Commit - Estructura de carpetas(Laravel)
   -Creación del proyecto de Laravel 5.8 llamado 3
     -composer create-project --prefer-dist laravel/laravel 3 "5.8.*"
     Nota: El proyecto se crea dentro de la carpeta tests
+Commit - Estructura de pruebas como en Laravel
+  -Creación de la carpeta 4 dentro de tests
+  -Comando para instalar PHPUnit
+    -composer require --dev phpunit/phpunit ^8
+      -Dónde ^8 es la versión de phpunit
+      -Se crea la carpeta vendor con sus carpetas internas el archivo composer.json y composer.lock
+  -Creación de la carpeta app/ y tests/ dentro de la carpeta 4
+  -Creación y edición del archivo php.xml dentro de la carpeta 4
+  -Edición del archivo composer.json
+  -Comando para registrar los cambios hechos en  composer.json
+    -composer dump-autoload
+  -Creación y edición del archivo SlugTest.php dentro de la carpeta tests
+  -Creación y edición de la clase Slug.php dentro de la carpeta app
+  -Comando para ejecutar las pruebas
+    -vendor/bin/phpunit
