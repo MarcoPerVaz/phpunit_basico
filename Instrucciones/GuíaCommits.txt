@@ -10,3 +10,25 @@ Commit - Flujo de trabajo sin PHPUnit
   -Creación de la carpeta 1
     -Creación y edición del archivo index.php
       -Creación de la clase Slug.php para usarse con el ejercicio 4 en index.php
+Commit - Mi primera prueba con PHPUnit
+  -Creación de la carpeta 2
+  -Desde consola ir a la ruta
+    -cd c:/laragon/www/phpunit/tests/2
+  -Instalación de la herramienta PHPUnit
+    -composer require --dev phpunit/phpunit ^8
+      -Dónde ^8 es la versión de phpunit
+      -Se crea la carpeta vendor con sus carpetas internas el archivo composer.json y composer.lock
+  -Creación y edición del archivo SlugTest.php dentro de la carpeta 2
+    -Será el archivo para las pruebas
+  -Desde consola se usa el comando para pruebas
+    -vendor/bin/phpunit SlugTest.php
+    Nota: vendor/bin/phpunit SlugTest.php --color
+      -Dónde --color destaca lo importante en la consola
+  -Creación y edición del archivo Slug.php
+  -Creación de la carpeta app
+  -Creación de la carpeta tests
+  -Desde consola se mueven los archivos Slug.php a la carpeta app y SlugTest.php a la carpeta tests
+    -mv Slug.php app/
+    -mv SlugTest.php tests/
+  -Desde consola realizar la prueba del test
+    -vendor/bin/phpunit tests/SlugTest.php --color
