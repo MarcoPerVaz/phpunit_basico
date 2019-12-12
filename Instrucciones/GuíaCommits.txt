@@ -51,3 +51,37 @@ Commit - Estructura de pruebas como en Laravel
   -Creación y edición de la clase Slug.php dentro de la carpeta app
   -Comando para ejecutar las pruebas
     -vendor/bin/phpunit
+Commit - Aserciones o afirmaciones en PHPUnit
+  -Creación de la carpeta 5 dentro de la carpeta tests
+      -Comando para crear la carpeta
+        -mkdir 5
+          Nota: Desde la terminal debe estar dentro de la carpeta donde se quiera crear la nueva carpeta
+    -Instalación de phpunit
+      -Comando para instalar PHPUnit
+      -composer require --dev phpunit/phpunit ^8
+        -Dónde ^8 es la versión de phpunit
+        -Se crea la carpeta vendor con sus carpetas internas el archivo composer.json y composer.lock
+    -Creación de la carpeta tests
+      -Creación y edición del archivo ExampleTest.php
+    -Creación y edición del archivo phpunit.xml (no se usa pero se crea para saber que es buena práctica hacerlo)
+Commit - TDD - Rojo, Verde y Refactor
+  -Creación de la carpeta 6 dentro de la carpeta tests
+    -Comando para crear la carpeta desde consola
+      -cd tests
+      -mkdir 6
+      Nota: Verificar que se esté dentro de la ruta donde se creará la carpeta
+    -Instalación de phpunit
+      -Comando para instalar PHPUnit
+      -composer require --dev phpunit/phpunit ^8
+        -Dónde ^8 es la versión de phpunit
+        -Se crea la carpeta vendor con sus carpetas internas el archivo composer.json y composer.lock
+    -Creación de la carpeta app/
+    -Creación de la carpeta tests/
+      -Creación y edición del test UserTest.php
+    -Creación y edición del archivo phpunit.xml
+    -Edición del archivo composer.json
+    -Comando para actualizar dependencias de php
+      -composer dump-autoload
+  Nota: Rojo significa que la prueba no pasa y que se debe arreglar
+        Verde significa que la prueba pasa y que el código está correcto
+        Refactor significa que el código se va a mejorar
