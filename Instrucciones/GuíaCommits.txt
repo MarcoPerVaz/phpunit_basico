@@ -99,3 +99,13 @@ Commit - Test de setName() y getName()
     -Edición del archivo User.php dentro de la carpeta app
       -Creación y edición de la función setName()
       -Creación y edición de la función getName()
+Commit - Test de setLastName() y getLastName()
+  -Dentro de la carpeta 6
+    -Edición del archivo UserTest.php
+      -Creación y edición del test test_i_can_the_lastname()
+    -Comando para correr la prueba
+      -vendor/bin/phpunit
+      Nota: La prueba falla porque no existe el método setLastName() dentro de la clase App\User
+    -Creación y edición de la función setLastName
+    -Creación y edición de la función getLastName
+    
