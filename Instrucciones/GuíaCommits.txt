@@ -85,3 +85,17 @@ Commit - TDD - Rojo, Verde y Refactor
   Nota: Rojo significa que la prueba no pasa y que se debe arreglar
         Verde significa que la prueba pasa y que el código está correcto
         Refactor significa que el código se va a mejorar
+Commit - Test de setName() y getName()
+  -Dentro de la carpeta 6
+    -Edición de UserTest.php
+    -Comando para correr la prueba
+      -vendor/bin/phpunit
+      Nota: La prueba falla porque no existe la clase App\User
+    -Creación del archivo User.php dentro de la carpeta app
+    -Comando para correr la prueba
+      -vendor/bin/phpunit
+      Nota: La prueba falla porque no existe el método setName dentro de la clase App\User
+      Nota: La prueba falla porque no existe el método getName dentro de la clase App\User
+    -Edición del archivo User.php dentro de la carpeta app
+      -Creación y edición de la función setName()
+      -Creación y edición de la función getName()
