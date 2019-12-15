@@ -114,3 +114,8 @@ Commit - Test de setEmail(), getEmail()y getFullName()
     -Edición de la clse app/User.php
       -Creación y edición de la función setEmail()
       -Creación y edición de la función getEmail()
+Commit - Los pequeños detalles
+  -Dentro de la carpeta 6
+    -Edición del archivo de pruebas tests/User.Test
+    -Edición de la clase app/User.Test
+<----------Fin---------->
