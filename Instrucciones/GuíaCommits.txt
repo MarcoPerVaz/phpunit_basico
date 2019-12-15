@@ -108,4 +108,9 @@ Commit - Test de setLastName() y getLastName()
       Nota: La prueba falla porque no existe el método setLastName() dentro de la clase App\User
     -Creación y edición de la función setLastName
     -Creación y edición de la función getLastName
-    
+Commit - Test de setEmail(), getEmail()y getFullName()
+  -Dentro de la carpeta 6
+    -Edición del archivo de pruebas tests/UserTest.php
+    -Edición de la clse app/User.php
+      -Creación y edición de la función setEmail()
+      -Creación y edición de la función getEmail()

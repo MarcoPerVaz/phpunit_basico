@@ -7,6 +7,7 @@ class User
 
   protected $name;
   protected $lastname;
+  protected $email;
 
   public function setName( $name )
   {
@@ -18,6 +19,11 @@ class User
     $this->lastname = $lastname;
   }
 
+  public function setEmail( $email )
+  {
+    $this->email = $email;
+  }
+
   public function getName()
   {
     return $this->name;
@@ -26,6 +32,19 @@ class User
   public function getLastName()
   {
     return $this->lastname;
+  }
+
+  public function getEmail()
+  {
+    return $this->email;
+  }
+
+  public function getFullName()
+  {
+    // return $this->name . ' ' . $this->lastname; /* Refactor */
+    // return "$this->name $this->lastname"; /* Retorna nombre y apellido y un espacio entre ambos */
+    return trim("$this->name $this->lastname"); /* Para quitar los espacios en blanco */
+
   }
 
 }
